@@ -1,0 +1,12 @@
+@font-face {
+  font-family: Pop-medium;
+  src: url(../fonts/Poppins-Medium.woff);
+}
+@font-face {
+  font-family: Pop-regular;
+  src: url(../fonts/Poppins-Regular.woff);
+}
+@font-face {
+  font-family: Pop-semiBold;
+  src: url(../fonts/Poppins-SemiBold.woff);
+}
