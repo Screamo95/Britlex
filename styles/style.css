@@ -432,3 +432,60 @@
   margin-left: 7px;
   padding-top: 12px;
 }
+
+/* Contact */
+.contact {
+  margin-bottom: 133px;
+}
+.contact__inner {
+  display: flex;
+}
+.contact-img {
+  width: 477px;
+  height: 429px;
+  margin-left: -19px;
+}
+.contact__content {
+  margin-left: 112px;
+  padding-top: 34px;
+}
+.contact__content-title {
+  font-family: var(--semiBold);
+  font-size: 48px;
+  line-height: 167%;
+  color: #000;
+  margin-bottom: 37px;
+}
+.contact__content-txt {
+  font-family: var(--regular);
+  font-size: 20px;
+  color: #8f95a5;
+  margin-bottom: 52px;
+  line-height: 150%;
+}
+.contact__form {
+  display: flex;
+}
+.contact__form-email {
+  border: 1px solid #8f95a5;
+  border-radius: 10px;
+  width: 450px;
+  height: 80px;
+  font-family: var(--regular);
+  font-size: 16px;
+  color: #8f95a5;
+  padding-left: 32px;
+  margin-left: 1px;
+}
+.contact__form-btn {
+  margin-left: 12px;
+  border-radius: 10px;
+  width: 264px;
+  height: 80px;
+  background: #263238;
+  font-family: var(--medium);
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  margin-top: -3px;
+}
