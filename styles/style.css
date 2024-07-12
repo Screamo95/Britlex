@@ -106,7 +106,7 @@
 /* Skills */
 .skills {
   padding-top: 30px;
-  padding-bottom: 282px;
+  padding-bottom: 200px;
 }
 .skills-title {
   font-family: var(--semiBold);
@@ -244,4 +244,63 @@
   margin-left: -4px;
 }
 .skills__card_content {
+}
+
+/* About */
+.about {
+  padding-bottom: 188px;
+  padding-top: 58px;
+}
+.about__inner {
+  display: flex;
+  justify-content: space-between;
+}
+.about__content {
+  max-width: 635px;
+  padding-top: 31px;
+  margin-left: 1px;
+}
+.about__content-title {
+  font-family: var(--semiBold);
+  font-size: 48px;
+  line-height: 167%;
+  color: #000;
+  margin-bottom: 23px;
+}
+.about__content-txt {
+  font-family: var(--regular);
+  font-size: 20px;
+  color: #8f95a5;
+  margin-bottom: 38px;
+  line-height: 150%;
+
+}
+.about__items {
+  display: flex;
+}
+.about__item {
+  text-align: center;
+}
+.about__items-2 {
+  margin-left: 141px;
+}
+.about__items-3 {
+  margin-left: 89px;
+}
+.about__item-number {
+  font-family: var(--semiBold);
+  font-size: 48px;
+  line-height: 167%;
+  color: #2a3246;
+  margin-bottom: 3px;
+}
+.about__item-name {
+  font-family: var(--regular);
+  font-size: 20px;
+  color: #8f95a5;
+}
+.about-img {
+  width: 500px;
+  height: 500px;
+  margin-right: 11px;
 }
