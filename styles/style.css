@@ -55,6 +55,9 @@
   color: #000;
   cursor: pointer;
 }
+.sidenav-trigger {
+  display: none;
+}
 .header__bottom {
   display: flex;
   justify-content: space-between;
@@ -466,7 +469,7 @@
 .contact__form {
   display: flex;
 }
-.contact__form-email {
+.contact__form-email_inside {
   border: 1px solid #8f95a5;
   border-radius: 10px;
   width: 450px;
@@ -477,7 +480,7 @@
   padding-left: 32px;
   margin-left: 1px;
 }
-.contact__form-btn {
+.contact__form-btn_inside {
   margin-left: 12px;
   border-radius: 10px;
   width: 264px;
@@ -711,7 +714,6 @@
   }
 
   .about {
-    
     padding-bottom: 109px;
     padding-top: 67px;
   }
@@ -876,7 +878,7 @@
     width: 450px;
     margin-bottom: 34px;
   }
-  .contact__form-email {
+  .contact__form-email_inside {
     padding-left: 37px;
     margin-left: -14px;
     padding-top: 6px;
@@ -884,7 +886,7 @@
     height: 60px;
     font-size: 14px;
   }
-  .contact__form-btn {
+  .contact__form-btn_inside {
     margin-left: 14px;
     margin-top: 0px;
     padding-top: 6px;
@@ -897,32 +899,16 @@
     padding-bottom: 30px;
   }
   .footer__line {
-    height: 1px;
-    background: #c4c4c4;
-    margin: 0 auto;
-
     width: 929px;
   }
   .footer__inner {
-    display: flex;
-    justify-content: space-between;
-
     padding-top: 31px;
   }
   .footer-logo {
-    font-family: var(--regular);
-    color: #000;
-
     margin-left: 5px;
     font-size: 30px;
   }
-  .footer-logo span {
-    color: #939393;
-  }
   .footer-nav {
-    color: #8f95a5;
-    font-family: var(--regular);
-
     padding-top: 10px;
     margin-right: 6px;
     font-size: 16px;
@@ -931,5 +917,421 @@
     text-decoration: none;
     color: #8f95a5;
     cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .global__container {
+    max-width: 712px;
+  }
+  .header__nav {
+    display: none;
+  }
+  .header__top-btn {
+    display: none;
+  }
+  .header {
+    padding-top: 25px;
+    margin-bottom: 14px;
+  }
+  .header__top-logo {
+    padding-left: 11px;
+    padding-top: 21px;
+  }
+  .header__bottom {
+    margin-left: 11px;
+  }
+  .header__box {
+    margin-bottom: 35px;
+    padding-top: 40px;
+  }
+  .header__box-title {
+    max-width: 220px;
+    line-height: 125%;
+    font-size: 36px;
+  }
+  .header__box-icon {
+    width: 70px;
+    height: 70px;
+    margin-top: 68px;
+    margin-left: -2px;
+  }
+  .header__left-txt {
+    font-size: 16px;
+    margin-left: 0px;
+    max-width: 335px;
+  }
+  .header__left-btn {
+    font-size: 18px;
+    width: 236px;
+    height: 65px;
+  }
+  .header__bottom-img {
+    margin-right: -12px;
+    margin-top: 12px;
+    width: 352px;
+    height: 352px;
+  }
+  .sidenav {
+    width: 429px;
+  }
+  .sidenav__top {
+    display: flex;
+  }
+  .sidenav__top-logo {
+    font-family: var(--regular);
+    font-size: 30px;
+    color: #000;
+    padding-top: 46px;
+    padding-left: 39px;
+    margin-bottom: 18px;
+  }
+  .sidenav__top-logo span {
+    color: #939393;
+  }
+  .sidenav-close {
+    padding-top: 22px !important;
+    margin-left: 215px;
+  }
+  .divider {
+    width: 364px;
+    height: 1px;
+    background: #c4c4c4;
+    margin-left: 40px !important;
+    margin-bottom: 42px !important;
+  }
+  .sidenav-link {
+    font-family: var(--medium);
+    font-size: 22px !important;
+    line-height: 273%;
+    color: #263238;
+    margin-left: 6px;
+    margin-bottom: 12px;
+  }
+  .sidenav__top-btn {
+    border: 2px solid #263238;
+    border-radius: 5px;
+    width: 210px !important;
+    height: 60px !important;
+    font-family: var(--regular) !important;
+    font-size: 18px !important;
+    color: #000 !important;
+    margin-top: 67px;
+    margin-left: 39px;
+    padding-left: 63px !important;
+    padding-top: 4px !important; 
+  }
+  .sidenav-trigger {
+    display: block;
+    margin-top: 20px;
+    margin-right: 11px;
+  }
+
+  .skills {
+    padding-bottom: 0px;
+  }
+  .skills-title {
+    margin-bottom: 50px;
+    font-size: 30px;
+  }
+  .skills__inner {
+    margin-left: 11px;
+    grid-template-columns: 224px 224px 224px;
+    grid-template-rows: 441px 210px;
+    gap: 12px;
+  }
+  .skills__card-1 {
+    padding-top: 0px;
+    padding-left: 17px;
+  }
+  .skills__card-1 .skills__card-img { 
+    margin-bottom: 15px;
+    margin-left: -16px;
+    margin-top: 31px;
+    max-width: 214px;
+    max-height: 214px;
+  }
+  .skills__card-1 .skills__card-title {
+    margin-bottom: 0px;
+  }
+  .skills__card-1 .skills__card-txt {
+    margin-top: -1px;
+    width: 197px;
+  }
+  .skills__card span {
+    padding-bottom: 23px;
+  }
+  .skills__card-1 .skills__card-btn {
+    margin-top: 22px;
+    margin-left: 0px;
+  }
+  .skills__card-title {
+    font-size: 20px;
+  }
+  .skills__card-txt {
+    font-size: 13px;
+    line-height: 152%;
+  }
+  .skills__card-btn {
+    font-size: 16px;
+    width: 178px;
+    height: 50px;
+  }
+  .skills__card-2 {
+    padding-left: 14px;
+    padding-top: 7px;
+  }
+  .skills__card-2 .skills__card-img {
+    margin-left: -13px;
+    margin-top: 8px;
+    max-width: 200px;
+    max-height: 200px;
+  }
+  .skills__card-2 .skills__card-title {
+    margin-top: -19px;
+  }
+  .skills__card-2 .skills__card-txt {
+    margin-top: -4px;
+    margin-left: 3px;
+    width: 188px;
+  }
+  .skills__card-2 .skills__card-btn {
+    margin-top: 19px;
+    font-size: 16px;
+    width: 178px;
+    height: 50px;
+  }
+  .skills__card-3 {
+    padding-top: 34px;
+    padding-left: 16px;
+  }
+  .skills__card-3 .skills__card-img {
+    margin-left: -20px;
+    max-width: 216px;
+    max-height: 144px;
+  }
+  .skills__card-3 .skills__card-title {
+    margin-top: 13px;
+  }
+  .skills__card-3 .skills__card-txt {
+    width: 197px;
+  }
+  .skills__card-3 .skills__card-btn {
+    margin-top: 23.5px;
+    margin-left: 3px;
+    font-size: 16px;
+    width: 178px;
+    height: 50px;
+  }
+  .skills__card-4 {
+    padding-left: 20px;
+  }
+  .skills__card-4 .skills__card-img {
+    margin-top: 57px;
+    padding-top: 0;
+    margin-left: -16px;
+    width: 202px;
+    height: 134px;
+  }
+  .skills__card-4 .skills__card-title {
+    padding-top: 10px;
+  }
+  .skills__card-4 .skills__card-txt {
+    max-width: 250px;
+  }
+  .skills__card-4 .skills__card-btn {
+    font-size: 16px;
+    width: 178px;
+    height: 50px;
+    margin-top: 14px;
+  }
+
+  .about {
+    padding-bottom: 105px;
+    padding-top: 36px;
+    margin-left: 12px;
+  }
+  .about__content {
+    max-width: auto;
+    width: 350px;
+  }
+  .about__content-title {
+    font-size: 30px;
+  }
+  .about__content-txt {
+    margin-bottom: 25px;
+    font-size: 14px;
+    margin-top: -10px;
+    width: 320px;
+  }
+  .about__items-2 {
+    margin-left: 54px;
+  }
+  .about__items-3 {
+    margin-left: 38px;
+  }
+  .about__item-number {
+    margin-bottom: 12px;
+    font-size: 22px;
+  }
+  .about__item-name {
+    font-size: 13px;
+  }
+  .about-img {
+    margin-right: 12px;
+    margin-top: 50px;
+    width: 295px;
+    height: 295px;
+  }
+
+  .pricing {
+    padding-bottom: 95px;
+  }
+  .pricing-title {
+    margin-bottom: 45px;
+    font-size: 30px;
+  }
+  .pricing__item-name {
+    font-size: 20px;
+    line-height: 140%;
+  }
+  .pricing__item-txt {
+    font-size: 14px;
+  }
+  .pricing__price-number {
+    font-size: 22px;
+  }
+  .pricing__item-1 img {
+    margin-left: -3px;
+    margin-bottom: 21px;
+    width: 197px;
+    height: 197px;
+  }
+  .pricing__item-1 h3 {
+    margin-bottom: 14px;
+    margin-left: 9px;
+    width: 200px;
+  }
+  .pricing__item-1 p {
+    margin-bottom: 24px;
+    margin-left: 9px;
+    width: 200px;
+  }
+  .pricing__item-1 .pricing__price {
+    margin-left: 11px;
+  }
+  .pricing__item-1 .pricing__price-number {
+    padding-top: 10px;
+  }
+  .pricing__item-1 .pricing__price-date {
+    margin-left: 19px;
+  }
+  .pricing__item-2 {
+    margin-left: 34px;
+  }
+  .pricing__item-2 img {
+    margin-bottom: 21px;
+    margin-top: 30px;
+    margin-left: -4px;
+    width: 219px;
+    height: 168px;
+  }
+  .pricing__item-2 h3 {
+    width: 150px;
+  }
+  .pricing__item-2 p {
+    width: 220px;
+    margin-bottom: 44px;
+  }
+  .pricing__item-2 .pricing__price-number {
+    padding-top: 10px;
+  }
+  .pricing__item-2 .pricing__price-date {
+    margin-left: 14px;
+    padding-top: 14px;
+  }
+  .pricing__item-3 {
+    margin-left: 21px;
+  }
+  .pricing__item-3 img {
+    margin-left: 0px;
+    margin-top: -5px;
+    margin-bottom: 13px;
+    width: 210px;
+    height: 210px;
+  }
+  .pricing__item-3 h3 {
+    width: 150px;
+  }
+  .pricing__item-3 p {
+    width: 230px;
+    margin-bottom: 50px;
+  }
+  .pricing__item-3 .pricing__price {
+    margin-left: -1px;
+  }
+  .pricing__item-3 .pricing__price-number {
+    margin-left: 19px;
+    padding-top: 10px;
+    font-size: 24px;
+  }
+
+  .contact {
+    margin-bottom: 111px;
+  }
+  .contact-img {
+    margin-left: -2px;
+    width: 233px;
+    height: 210px;
+  }
+  .contact__content {
+    margin-left: 36px;
+    padding-top: 0px;
+  }
+  .contact__content-title {
+    margin-bottom: 5px;
+    font-size: 30px;
+    margin-top: -14px;
+  }
+  .contact__content-txt {
+    margin-left: 3px;
+    width: 400px;
+    margin-bottom: 26px;
+    font-size: 14px;
+  }
+  .contact__form-email_inside {
+    padding-left: 24px;
+    padding-top: 1px;
+    margin-left: 0px;
+    font-size: 12px;
+    width: 283px;
+    height: 50px;
+    border-radius: 5px;
+  }
+  .contact__form-btn_inside {
+    margin-left: 6px;
+    margin-top: -1px;
+    font-size: 13px;
+    width: 145px;
+    height: 50px;
+    border-radius: 5px;
+  }
+
+  .footer {
+    padding-bottom: 18px;
+  }
+  .footer__line {
+    width: 690px;
+  }
+  .footer__inner {
+    padding-top: 25px;
+  }
+  .footer-logo {
+    margin-left: 10px;
+  }
+  .footer-nav {
+    padding-top: 11px;
+    margin-right: 10px;
+    font-size: 13px;
   }
 }

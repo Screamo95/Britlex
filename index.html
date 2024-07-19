@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="styles/materialize.css">
   <link rel="stylesheet" href="styles/reset.css">
   <link rel="stylesheet" href="styles/fonts.css">
   <link rel="stylesheet" href="styles/style.css">
@@ -23,6 +25,20 @@
           <a href="#" class="header__nav-link">Contacts</a>
         </div>
         <button class="header__top-btn">Let`s Talk</button>
+        <ul id="slide-out" class="sidenav">
+          <div class="sidenav__top">
+            <h2 class="sidenav__top-logo">Brit<span>lex</span></h2>
+            <li><a class="sidenav-close" href="#!"><img src="img/sidenav_close.png" alt=""></a></li>
+          </div>
+          <li><div class="divider"></div></li>
+          <li><a class="waves-effect sidenav-link" href="#">Home</a></li>
+          <li><a class="waves-effect sidenav-link" href="#">Skills</a></li>
+          <li><a class="waves-effect sidenav-link" href="#">About Us</a></li>
+          <li><a class="waves-effect sidenav-link" href="#">Pricing</a></li>
+          <li><a class="waves-effect sidenav-link" href="#">Contacts</a></li>
+          <li><a class="waves-effect sidenav__top-btn">Let`s Talk</a></li>
+        </ul>
+        <a href="#" data-target="slide-out" class="sidenav-trigger"><img src="img/sidenav_burger.png" alt=""></a>
       </div>
       <div class="header__bottom">
         <div class="header__left">
@@ -147,8 +163,8 @@
           <h2 class="contact__content-title">Contact Us</h2>
           <p class="contact__content-txt">Discover your current English level by taking our free online English test.Sign up to our newsletter for learning tips and free resources</p>
           <form action="#" method="post" class="contact__form">
-            <input type="email" name="" class="contact__form-email" placeholder="Enter Your E-mail">
-            <input type="button" value="Subscribe" class="contact__form-btn">
+            <input type="email" name="" class="contact__form-email_inside" placeholder="Enter Your E-mail">
+            <input type="button" value="Subscribe" class="contact__form-btn_inside">
           </form>
         </div>
       </div>
@@ -165,6 +181,9 @@
       </div>
     </div>
   </footer>
+
+  <script src="scripts/materialize.min.js"></script>
+  <script src="scripts/main.js"></script>
 
 </body>
 </html>
