@@ -1780,3 +1780,391 @@
     font-size: 12px;
   }
 }
+
+@media screen and (max-width: 550px) {
+  .global__container {
+    max-width: 290px;
+  }
+  .header__top {
+    margin-bottom: 33px;
+  }
+  .header__top-logo {
+    padding-top: 16px;
+    font-size: 24px;
+  }
+  .header__box-title {
+    margin-bottom: 0px;
+    font-size: 24px;
+    max-width: 220px;
+    line-height: 150%;
+    margin-left: 30px;
+    margin-top: -2px;
+  }
+  .header__left-txt {
+    margin-left: -10px;
+    max-width: 500px;
+    margin-bottom: 14px;
+    font-size: 14px;
+  }
+  .header__left-btn {
+    width: 289px;
+    height: 60px;
+    font-size: 16px;
+  }
+  .header__bottom-img {
+    margin-left: -15px;
+    width: 299px;
+    height: 299px;
+  }
+  .sidenav__top-logo {
+    padding-top: 29px;
+    padding-left: 15px;
+    margin-bottom: 17px;
+    font-size: 24px;
+  }
+  .sidenav-close {
+    padding-top: 25px !important;
+    margin-left: 161px;
+  }
+  .sidenav-close img {
+    width: 34px;
+    height: 34px;
+  }
+  .divider {
+    margin-bottom: 58px !important;
+    width: 290px;
+    margin-left: 15px !important;
+  }
+  .sidenav-link {
+    margin-bottom: 17px;
+    margin-left: -18px;
+    font-size: 22px !important;
+  }
+  .sidenav__top-btn {
+    margin-top: 76px;
+    padding-left: 99px !important;
+    padding-top: 8px !important;
+    width: 291px !important;
+    height: 65px !important;
+    font-size: 20px !important;
+    margin-left: 15px;
+  }
+  .sidenav-trigger {
+    margin-top: 21px;
+    margin-right: 0px;
+  }
+  .sidenav-trigger img {
+    width: 34px;
+    height: 19px;
+  }
+
+  .skills-title {
+    font-size: 24px;
+    margin-top: -57px;
+    margin-bottom: 52px;
+  }
+  .skills__inner {
+    grid-template-columns: 290px;
+    grid-template-rows: 600px 473px 473px 473px;
+    column-gap: 0px;
+    row-gap: 21px;
+  }
+  .skills__card-1 .skills__card-img { 
+    margin-bottom: 24px;
+    margin-left: 22px;
+    margin-top: 9px;
+    max-width: 213px;
+    max-height: 213px;
+  }
+  .skills__card-1 .skills__card-title {
+    margin-bottom: 1px;
+    margin-left: -4px;
+  }
+  .skills__card-1 .skills__card-txt {
+    width: 260px;
+  }
+  .skills__card span {
+    padding-bottom: 21px;
+  }
+  .skills__card-1 .skills__card-btn {
+    margin-top: 32px;
+    margin-left: -1px;
+  }
+  .skills__card-txt {
+    font-size: 13px;
+  }
+  .skills__card-btn {
+    width: 178px;
+  }
+  .skills__card-2 .skills__card-img {
+    margin-left: 31px;
+    margin-top: 16px;
+    max-width: 204px;
+    max-height: 204px;
+  }
+  .skills__card-2 .skills__card-title {
+    margin-top: 26px;
+    margin-left: 0px;
+  }
+  .skills__card-2 .skills__card-txt {
+    margin-top: 0px;
+    margin-left: 1px;
+    width: 280px;
+    font-size: 12px;
+  }
+  .skills__card-2 .skills__card-btn {
+    margin-top: 29px;
+    width: 178px;
+    margin-left: 0px;
+  }
+  .skills__card-3 .skills__card-img {
+    max-width: 236px;
+    max-height: 157px;
+    margin-left: 11px;
+  }
+  .skills__card-3 .skills__card-title {
+    margin-top: 33px;
+  }
+  .skills__card-3 .skills__card-txt {
+    margin-top: -1px;
+    line-height: 155%;
+    width: 250px;
+  }
+  .skills__card-3 .skills__card-btn {
+    margin-top: 30px;
+    margin-left: -5px;
+    width: 178px;
+    padding-right: 18px;
+  }
+  .skills__card-4 {
+    margin-left: 2px;
+    margin-right: -3px;
+  }
+  .skills__card-4 .skills__card-img {
+    margin-top: 34px;
+    margin-left: 10px;
+    width: 232px;
+    height: 154px;
+  }
+  .skills__card-4 .skills__card-title {
+    padding-top: 34px;
+    margin-left: -5px;
+  }
+  .skills__card-4 .skills__card-txt { 
+    max-width: 250px;
+    margin-left: -4px;
+    line-height: 157%;
+  }
+  .skills__card-4 .skills__card-btn {
+    padding-right: 17px;
+    margin-top: 36.5px;
+    margin-left: -6px;
+    width: 178px;
+  }
+
+  .about {
+    padding-bottom: 106px;
+    padding-top: 58px;
+  }
+  .about__content-title_mobile {
+    font-size: 24px;
+  }
+  .about__content-txt {
+    margin-top: -7px;
+    font-size: 13px;
+    width: 295px;
+    margin-left: -13px;
+    line-height: 153%;
+  }
+  .about__items {
+    flex-direction: column;
+    margin-left: 0;
+    width: 260px;
+    margin-top: -11px;
+  }
+  .about__items-1 {
+    margin-left: 0px;
+  }
+  .about__items-2 {
+    margin-left: 5px;
+    margin-top: 52px;
+  }
+  .about__items-2 .about__item-name {
+    margin-top: -2px;
+    font-size: 13px;
+  }
+  .about__items-3 {
+    margin-left: 4px;
+    margin-top: 44px;
+  }
+  .about__items-3 .about__item-name {
+    font-size: 13px;
+    margin-top: -2px;
+  }
+  .about__item-name {
+    font-size: 15px;
+  }
+  .about-img {
+    width: 283px;
+    height: 283px;
+    margin-top: 33px;
+    margin-left: -2px;
+  }
+
+  .pricing {
+    padding-bottom: 80px;
+  }
+  .pricing-title {
+    font-size: 24px;
+  }
+  .pricing__item-name {
+    font-size: 18px;
+  }
+  .pricing__item-txt {
+    font-size: 13px;
+  }
+  .pricing__price {
+    width: 170px;
+    height: 37px;
+  }
+  .pricing__price-number {
+    font-size: 18px;
+  }
+  .pricing__price-date {
+    font-size: 14px;
+  }
+  .pricing__item-1 img {
+    margin-left: 30px;
+    width: 248px;
+    height: 248px;
+  }
+  .pricing__item-1 h3 {
+    margin-top: 8px;
+    margin-left: -5px;
+  }
+  .pricing__item-1 p {
+    margin-left: 10px;
+    width: 280px;
+    line-height: 153%;
+    margin-bottom: 32px;
+  }
+  .pricing__item-1 .pricing__price {
+    margin-left: 66.5px;
+  }
+  .pricing__item-1 .pricing__price-number {
+    padding-top: 9px;
+  }
+  .pricing__item-1 .pricing__price-date {
+    margin-left: 15px;
+    margin-top: -4px;
+  }
+  .pricing__item-2 img {
+    width: 257px;
+    height: 197px;
+    margin-left: 17px;
+    margin-top: 63px;
+    margin-bottom: 13px;
+  }
+  .pricing__item-2 h3 {
+    margin-bottom: 30px;
+  }
+  .pricing__item-2 p {
+    margin-left: 4px;
+    width: 280px;
+    margin-bottom: 31px;
+  }
+  .pricing__item-2 .pricing__price {
+    margin-left: 60px;
+  }
+  .pricing__item-2 .pricing__price-number {
+    padding-left: 17px;
+    margin-left: 0;
+  }
+  .pricing__item-2 .pricing__price-date {
+    margin-left: 9px;
+    padding-top: 10px;
+  }
+  .pricing__item-3 img {
+    width: 241px;
+    height: 241px;
+    margin-left: 24px;
+    margin-top: 73px;
+    margin-bottom: 8px;
+  }
+  .pricing__item-3 h3 {
+    margin-left: -1px;
+    margin-bottom: 35px;
+  }
+  .pricing__item-3 p {
+    margin-left: 3px;
+    width: 280px;
+    margin-bottom: 38px;
+  }
+  .pricing__item-3 .pricing__price {
+    margin-left: 60px;
+  }
+  .pricing__item-3 .pricing__price-number {
+    font-size: 18px;
+    margin-left: 17px;
+  }
+  .pricing__item-3 .pricing__price-date {
+    margin-left: 4px;
+    margin-top: 0px;
+    padding-top: 10px;
+  }
+
+  .contact {
+    margin-bottom: 57px;
+  }
+  .contact-img {
+    width: 253px;
+    height: 228px;
+    margin-left: 29px;
+    margin-bottom: 39px;
+  }
+  .contact__content-title_mobile {
+    font-size: 24px;
+    margin-bottom: 45px;
+  }
+  .contact__content-txt {
+    font-size: 14px;
+    width: 280px;
+    margin-left: -33px;
+    margin-bottom: 31px;
+  }
+  .contact__form {
+    flex-direction: column;
+  }
+  .contact__form-email_inside {
+    width: 291px;
+    height: 50px;
+    font-size: 12px;
+    border-radius: 5px;
+    margin-bottom: 16.5px;
+  }
+  .contact__form-btn_inside {
+    width: 290px;
+    height: 60px;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-left: -36px;
+    margin-right: 0px;
+    padding-top: 0;
+  }
+
+  .footer__inner {
+    flex-direction: column;
+  }
+  .footer__line {
+    width: 290px;
+  }
+  .footer-logo {
+    font-size: 24px;
+    margin: 6px auto;
+  }
+  .footer-nav {
+    font-size: 11px;
+    margin: 0 auto;
+    padding-top: 17px;
+  }
+}
