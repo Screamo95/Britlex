@@ -153,8 +153,6 @@
 .skills__card-1 .skills__card-btn {
   margin-top: 36px;
 }
-.skills__card-img {
-}
 .skills__card-title {
   font-family: var(--semiBold);
   font-size: 30px;
@@ -246,8 +244,6 @@
   height: 60px;
   margin-left: -4px;
 }
-.skills__card_content {
-}
 
 /* About */
 .about {
@@ -326,10 +322,6 @@
 .pricing__inner {
   display: flex;
 }
-.pricing__item {
-}
-.pricing__item-img {
-}
 .pricing__item-name {
   font-family: var(--semiBold);
   font-size: 30px;
@@ -358,9 +350,6 @@
   font-family: var(--regular);
   font-size: 18px;
   color: #546269;
-}
-.pricing__item-1 {
-
 }
 .pricing__item-1 img {
   width: 311px;
@@ -427,8 +416,6 @@
 .pricing__item-3 p {
   margin-bottom: 58px;
   max-width: 670px;
-}
-.pricing__item-3 .pricing__price {
 }
 .pricing__item-3 .pricing__price-number {
   margin-left: 17px;
